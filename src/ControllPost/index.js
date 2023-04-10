@@ -25,7 +25,7 @@ const recipePost = async (req,res)=>{
     return relacionTablas
     
   } catch (error) {
-    res.status(404).json({info:"Recipe no creada"})
+    res.status(404).json({info:"La Recipe no fue creada!!"})
   }
 }
 module.exports={recipePost}
